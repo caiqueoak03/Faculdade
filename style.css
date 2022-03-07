@@ -1,0 +1,36 @@
+* {
+    --space: 200px;
+}
+body {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+}
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 5px;
+}
+main, article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: fit-content;
+    height: 75%;
+    padding-top: 20px;
+    column-gap: 40px;
+    margin: 0 70px;
+}
